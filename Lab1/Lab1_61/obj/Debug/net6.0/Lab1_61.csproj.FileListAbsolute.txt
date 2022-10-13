@@ -1,0 +1,30 @@
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.exe
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.deps.json
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.runtimeconfig.json
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.dll
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.pdb
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.csproj.AssemblyReference.cache
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.AssemblyInfoInputs.cache
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.AssemblyInfo.cs
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.csproj.CoreCompileInputs.cache
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.dll
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\refint\Lab1_61.dll
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.pdb
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.genruntimeconfig.cache
+C:\Users\plast\OneDrive\Рабочий стол\CrossProg\Lab1_61\Lab1_61\obj\Debug\net6.0\ref\Lab1_61.dll
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.exe
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.deps.json
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.runtimeconfig.json
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.dll
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\bin\Debug\net6.0\Lab1_61.pdb
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.csproj.AssemblyReference.cache
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.AssemblyInfoInputs.cache
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.AssemblyInfo.cs
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.csproj.CoreCompileInputs.cache
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.dll
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\refint\Lab1_61.dll
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.pdb
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\Lab1_61.genruntimeconfig.cache
+D:\University\4course\CrossPlatform\Lab1_61\Lab1_61\obj\Debug\net6.0\ref\Lab1_61.dll
