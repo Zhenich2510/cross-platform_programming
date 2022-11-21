@@ -1,0 +1,16 @@
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\bin\Debug\net7.0\LabPyatnashki.exe
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\bin\Debug\net7.0\LabPyatnashki.deps.json
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\bin\Debug\net7.0\LabPyatnashki.runtimeconfig.json
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\bin\Debug\net7.0\LabPyatnashki.dll
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\bin\Debug\net7.0\LabPyatnashki.pdb
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\LabPyatnashki.csproj.AssemblyReference.cache
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\LabPyatnashki.GeneratedMSBuildEditorConfig.editorconfig
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\LabPyatnashki.AssemblyInfoInputs.cache
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\LabPyatnashki.AssemblyInfo.cs
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\LabPyatnashki.csproj.CoreCompileInputs.cache
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\LabPyatnashki.dll
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\refint\LabPyatnashki.dll
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\LabPyatnashki.pdb
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\LabPyatnashki.genruntimeconfig.cache
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\obj\Debug\net7.0\ref\LabPyatnashki.dll
+W:\FreeLance\Projects\LabPyatnashki\LabPyatnashki\bin\Debug\net7.0\INPUT.txt
