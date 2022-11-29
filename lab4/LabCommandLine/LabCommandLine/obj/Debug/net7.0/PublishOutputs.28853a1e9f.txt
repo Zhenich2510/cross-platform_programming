@@ -1,0 +1,8 @@
+E:\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.exe
+E:\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.dll
+E:\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.deps.json
+E:\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.runtimeconfig.json
+E:\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.pdb
+E:\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\McMaster.Extensions.CommandLineUtils.dll
+E:\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\LabsClassLibrary.dll
+E:\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\LabsClassLibrary.pdb

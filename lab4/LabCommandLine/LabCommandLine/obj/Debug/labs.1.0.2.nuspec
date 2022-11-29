@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>labs</id>
+    <version>1.0.2</version>
+    <title>Labs runner</title>
+    <authors>Zhenich</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="w:\FreeLance\Projects\LabCommandLine\LabCommandLine\obj\DotnetToolSettings.xml" target="tools\net7.0\any\DotnetToolSettings.xml" />
+    <file src="w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.dll" target="tools\net7.0\any\labs.dll" />
+    <file src="w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.deps.json" target="tools\net7.0\any\labs.deps.json" />
+    <file src="w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.runtimeconfig.json" target="tools\net7.0\any\labs.runtimeconfig.json" />
+    <file src="w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.pdb" target="tools\net7.0\any\labs.pdb" />
+    <file src="w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\McMaster.Extensions.CommandLineUtils.dll" target="tools\net7.0\any\McMaster.Extensions.CommandLineUtils.dll" />
+    <file src="w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\LabsClassLibrary.dll" target="tools\net7.0\any\LabsClassLibrary.dll" />
+    <file src="w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\LabsClassLibrary.pdb" target="tools\net7.0\any\LabsClassLibrary.pdb" />
+  </files>
+</package>

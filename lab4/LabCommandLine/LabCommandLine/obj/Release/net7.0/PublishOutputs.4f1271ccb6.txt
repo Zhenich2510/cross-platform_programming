@@ -1,0 +1,8 @@
+/app/publish/labs
+/app/publish/labs.dll
+/app/publish/labs.deps.json
+/app/publish/labs.runtimeconfig.json
+/app/publish/labs.pdb
+/app/publish/McMaster.Extensions.CommandLineUtils.dll
+/app/publish/LabsClassLibrary.dll
+/app/publish/LabsClassLibrary.pdb

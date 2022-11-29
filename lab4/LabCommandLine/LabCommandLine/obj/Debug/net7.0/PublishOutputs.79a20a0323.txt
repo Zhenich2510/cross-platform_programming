@@ -1,0 +1,8 @@
+w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.exe
+w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.dll
+w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.deps.json
+w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.runtimeconfig.json
+w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\labs.pdb
+w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\McMaster.Extensions.CommandLineUtils.dll
+w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\LabsClassLibrary.dll
+w:\FreeLance\Projects\LabCommandLine\LabCommandLine\bin\Debug\net7.0\publish\LabsClassLibrary.pdb

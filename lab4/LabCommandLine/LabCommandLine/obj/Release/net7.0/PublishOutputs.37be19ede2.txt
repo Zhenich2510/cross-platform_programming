@@ -1,0 +1,8 @@
+/home/vagrant/app/publish/labs
+/home/vagrant/app/publish/labs.dll
+/home/vagrant/app/publish/labs.deps.json
+/home/vagrant/app/publish/labs.runtimeconfig.json
+/home/vagrant/app/publish/labs.pdb
+/home/vagrant/app/publish/McMaster.Extensions.CommandLineUtils.dll
+/home/vagrant/app/publish/LabsClassLibrary.dll
+/home/vagrant/app/publish/LabsClassLibrary.pdb
