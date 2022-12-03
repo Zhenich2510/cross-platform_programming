@@ -1,0 +1,16 @@
+/var/labwebmvc/LabWebMVC
+/var/labwebmvc/appsettings.Development.json
+/var/labwebmvc/appsettings.json
+/var/labwebmvc/LabWebMVC.dll
+/var/labwebmvc/LabWebMVC.deps.json
+/var/labwebmvc/LabWebMVC.runtimeconfig.json
+/var/labwebmvc/LabWebMVC.pdb
+/var/labwebmvc/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/var/labwebmvc/Microsoft.IdentityModel.JsonWebTokens.dll
+/var/labwebmvc/Microsoft.IdentityModel.Logging.dll
+/var/labwebmvc/Microsoft.IdentityModel.Protocols.dll
+/var/labwebmvc/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/var/labwebmvc/Microsoft.IdentityModel.Tokens.dll
+/var/labwebmvc/System.IdentityModel.Tokens.Jwt.dll
+/var/labwebmvc/LabsClassLibrary.dll
+/var/labwebmvc/LabsClassLibrary.pdb

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SelfHost": {
+      "commandName": "Project",
+      "launchUrl": "Account/Register?ReturnUrl=http%3A%2F%2F192.168.88.62",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://0.0.0.0:5001"
+    }
+  }
+}

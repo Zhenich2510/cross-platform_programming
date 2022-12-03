@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Authentication
+@model Dictionary<string, string>
+
+ <h3>Профіль користувача</h3>
+<dl>
+    <dt>Користувач</dt>
+    <dd>@Model["name"]</dd>
+    <dt>П.І.Б.</dt> 
+    <dd>@Model["family_name"]</dd>
+    <dt>Електронна адреса</dt>
+    <dd>@Model["email"]</dd>
+    <dt>Номер телефона</dt>
+    <dd>@Model["phone_number"]</dd>
+
+</dl>

@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Лаб#3";
+}
+
+<div>
+    <h3>Лабораторна робота #3</h3>
+</div>
+<div class="container" style="border:1px solid lightgrey;">
+    <h6 class="text-center">Алгоритм П'ятнашкі</h6>
+    <div class="row">
+        <div class="col-sm-6">
+            <h6>Алгоритм Пошуку Комбінацій</h6>
+            <p>Маємо ігрове поле 4х2, яке складається з 7 комбінацій символів і одного символа <b>#</b>, який означає пусту клітину</p>
+            <p>Задача цього алгоритму полягає в тому, щоб впорядкувати вхідну кобмінацію згідно взірця за мінімальну кількість ходів</p>
+            <hr />
+            <p>Працює алгоритм наступним чином:</p>
+            <p>
+                Створюється словник "ключ-значення", де ключем буде комбінація, а значенням - кількість кроків до її досягнення від початкової. Першим елементом зі значенням 0 додається початкова комбінація. Далі створюємо чергу на оброкуб в яку також додаємо першу комбінацію. Далі дістаємо черговий елемент із черги і перевіряємо чи він не відповідає кінцевому. Якщо ні, то обходимо в циклі і знаходимо всі можливі комбінації, які можна утворити із поточної згідно правил. Якщо комбінація ще не існує в словнику, то вона в нього додається зі значенням +1 від поточної, а також додається в чергу на наступний крок. Таким чином йде перебор всіх можливих комбінацій допоки не досягнемо необхідної. Якщо перебрали всі можливі комбінації, але не знайши рішення, то програма видасть результат -1;
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <form id="labform">
+                <div class="form-group row">
+                    <label for="input" class="form-label">Перший рядок стартової комбінації</label>
+
+                    <div class="col-md-6">
+                        <input name="start1" type="text" maxlength="4" class="form-control" placeholder="ACBD">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="input" class="form-label">Другий рядок стартової комбінації</label>
+
+                    <div class="col-md-6">
+                        <input name="start2" type="text" maxlength="4" class="form-control" placeholder="32#0">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="input" class="form-label">Перший рядок взірця</label>
+
+                    <div class="col-md-6">
+                        <input name="finish1" type="text" maxlength="4" class="form-control" placeholder="ABCD">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="input" class="form-label">Другий рядок взірця</label>
+
+                    <div class="col-md-6">
+                        <input name="finish2" type="text" maxlength="4" class="form-control" placeholder="230#">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-dark" style="margin-top:10px;">Порахувати</button>
+
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+
+</div>
+<script>
+    $("#labform").submit(function (event) {
+        event.preventDefault();
+        $("#result").load("@Url.Action("RunLab")", $("#labform").serialize());
+
+    });
+</script>

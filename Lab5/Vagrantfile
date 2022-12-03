@@ -1,0 +1,62 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+#sudo dotnet publish /vagrant_data/LabWebMVC/LabWebMVC/LabWebMVC.csproj -c Release -o /var/labwebmvc 
+#sudo dotnet publish /vagrant_data/IdentityServer/IdentityServer.csproj -c Release -o /var/labwebid
+#
+#yes | sudo cp -i /vagrant_data/kestrelweb.service /etc/systemd/system/
+#yes | sudo systemctl enable kestrelweb.service
+#
+#yes | sudo cp -i /vagrant_data/kestrelid.service /etc/systemd/system/
+#yes | sudo systemctl enable kestrelid.service
+#
+#sudo systemctl start kestrelid.service
+#sudo systemctl start kestrelid.service
+$script = <<-SCRIPT 
+wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+
+sudo apt-get update
+sudo apt-get install -y dotnet-sdk-7.0
+
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1-1ubuntu2.1\~18.04.20_amd64.deb
+sudo dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
+rm libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
+sudo apt-get install -y aspnetcore-runtime-3.1
+
+sudo apt install mc -y
+
+sudo dotnet build /vagrant_data/LabWebMVC/LabWebMVC/LabWebMVC.csproj -c Release  
+sudo dotnet publish /vagrant_data/LabWebMVC/LabWebMVC/LabWebMVC.csproj -c Release -o /var/labwebmvc 
+sudo dotnet build /vagrant_data/IdentityServer/IdentityServer.csproj -c Release
+sudo dotnet publish /vagrant_data/IdentityServer/IdentityServer.csproj -c Release -o /var/labwebid
+
+yes | sudo cp -i /vagrant_data/kestrelweb.service /etc/systemd/system/
+yes | sudo systemctl enable kestrelweb.service
+sudo systemctl start kestrelweb.service
+
+yes | sudo cp -i /vagrant_data/kestrelid.service /etc/systemd/system/
+yes | sudo systemctl enable kestrelid.service 
+sudo systemctl start kestrelid.service
+
+SCRIPT
+#  
+Vagrant.configure("2") do |config|
+  
+  config.vm.box = "ubuntu/jammy64"
+  config.vm.provision "shell", inline: $script, privileged: false
+  
+  config.vm.box_check_update = false
+
+   
+  config.vm.network "public_network",
+  ip: "192.168.88.212" 
+ config.vm.synced_folder ".", "/vagrant_data"
+
+   
+end

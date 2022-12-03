@@ -1,0 +1,10 @@
+﻿@{
+    Layout = null;
+    List<string> result = Model;
+}
+<h6 style="margin-top:10px;">Результат (@result.Count)</h6>
+
+@foreach (var item in result)
+{
+    @item <br />
+}

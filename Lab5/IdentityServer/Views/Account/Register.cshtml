@@ -1,0 +1,56 @@
+﻿@model RegisterInputModel
+@{
+    var url = Model?.ReturnUrl;
+    url = Uri.EscapeDataString(url);
+}
+<div class="login-page">
+    <div class="lead">
+        <h1>Реєстрація</h1>
+    </div>
+
+    <partial name="_ValidationSummary" />
+
+    <div class="row">
+
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-header">
+                </div>
+
+                <div class="card-body">
+                    <form asp-route="Register">
+                        <input type="hidden" asp-for="ReturnUrl" />
+
+                        <div class="form-group">
+                            <label asp-for="Username">Користувач</label>
+                            <input class="form-control" placeholder="Користувач" asp-for="Username" autofocus autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Password">Пароль</label>
+                            <input type="password" class="form-control" placeholder="Пароль" asp-for="Password" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ConfirmPassword">Пароль ще раз</label>
+                            <input type="password" class="form-control" placeholder="Пароль ще раз" asp-for="ConfirmPassword" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NameSurname">П.І.Б.</label>
+                            <input type="text" class="form-control" placeholder="Призвіще Ім'я по батькові (500 літер)" asp-for="NameSurname" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NameSurname">Електрона пошта</label>
+                            <input type="email" class="form-control" placeholder="name@email.com" asp-for="Email" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NameSurname">Номер телефону</label>
+                            <input type="number" class="form-control" placeholder="0631112233" asp-for="PhoneNumber" autocomplete="off">
+                        </div>
+                        <button class="btn btn-primary" name="button" value="login">Зареєструвати</button>
+                        <a class="btn btn-success float-right" href="/Account/Login?ReturnUrl=@url">Вхід</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
